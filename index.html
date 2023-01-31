@@ -1,1 +1,580 @@
-<p> BEKO </p>
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <title>Jekyll x Bulma - A free Jekyll theme by Nativv Studios</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+    <!-- make sure to remove nativvstudios when using -->
+    <link rel="stylesheet" href="/assets/css/bulma.css">
+    <link rel="stylesheet" href="/assets/css/posts.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/jekyllxbulma/assets/css/bulma.css">
+    <link rel="stylesheet" href="/jekyllxbulma/assets/css/posts.css">
+    <link rel="stylesheet" href="/jekyllxbulma/assets/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <style>
+    .columns:nth-child(2)
+    {margin-top: -10rem;}
+    </style>
+  </head>
+  <body>
+    <section class="hero is-dark is-fullheight ">
+
+        <div class="hero-head">
+            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <h2 class="title is-4">JEKYLL X BULMA</h2>
+        <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          Documentation
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item sub-menu-item">
+              About
+            </a>
+            <a class="navbar-item sub-menu-item">
+              Jobs
+            </a>
+            <a class="navbar-item sub-menu-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item sub-menu-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-link">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+        </div>
+    
+    
+        <div class="hero-body ">
+            <div class="container has-text-centered is-centered">
+                <figure class="avatar image">
+                    <a href="/">
+                        <img class="is-rounded" src="https://picsum.photos/300" alt="">
+                    </a>
+                </figure>
+                <h1 class="title is-1">
+                  JEKYLL X BULMA
+                </h1>
+                <p class="subtitle">
+                  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+                </p>
+
+                <div class="socials">
+                  
+                  <a href="https://twitter.com/whyherro1" target="_blank">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+            
+                  </a>
+            
+                  
+                  <a href="https://github.com/nativvstudios" target="_blank">
+                    <i class="fa-brands fa-github fa-lg"></i>
+            
+                  </a>
+            
+                  
+                  <a href="mailto:whyherro@nativvstudios.com" target="_blank">
+                    <i class="fa-brands fa-email fa-lg"></i>
+            
+                  </a>
+            
+                  
+
+                  
+                  
+                    
+                    <a href="mailto:whyherro@nativvstudios.com" target="_blank">
+                      <i class="fa-solid fa-envelope fa-lg" style="margin-left: -4px;"></i>
+                    </a>
+                    
+                  
+            
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="container">
+    <div class="columns is-centered features">
+      
+
+      <div class="column is-3">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://picsum.photos/1024?random=6" alt="butterfly image" class="modal-button" data-target="modal-image1">
+              </figure>
+            </div>
+            <div class="card-content  modal-button" data-target="modal-card1">
+              <div class="content">
+                <h3>Testing post order!</h3>
+                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+                <form action="/jekyll/update/2022/02/23/hello-testing.html">
+                  <input class="button is-link modal-button" type="submit" value="Go to Post" />
+              </form>
+              <h6 class="post-date">23 Feb 2022</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+      
+
+      <div class="column is-3">
+
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://picsum.photos/1024" alt="butterfly image" class="modal-button" data-target="modal-image2">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card2">
+            <div class="content">
+              <h3>Welcome to Jekyll! 1</h3>
+              <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+              <form action="/jekyll/update/2022/02/23/welcome-to-jekyll.html">
+                  <input class="button is-link modal-button" type="submit" value="Go to Post" />
+              </form>
+              <h6 class="post-date">23 Feb 2022</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+
+      <div class="column is-3">
+
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://picsum.photos/1024?random=1" alt="butterfly image" class="modal-button" data-target="modal-image3">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card3">
+            <div class="content">
+              <h3>Welcome to Jekyll! 2</h3>
+              <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+              <form action="/jekyll/update/2022/02/22/welcome-to-jekyll-copy.html">
+                  <input class="button is-link modal-button" type="submit" value="Go to Post" />
+              </form>
+              <h6 class="post-date">22 Feb 2022</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+
+      <div class="column is-3">
+
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://picsum.photos/1024?random=2" alt="butterfly image" class="modal-button" data-target="modal-image4">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card4">
+            <div class="content">
+              <h3>Welcome to Jekyll! 3</h3>
+              
+              <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+              
+              <form action="/jekyll/update/2022/02/21/welcome-to-jekyll-copy-4.html">
+                  <input class="button is-link modal-button" type="submit" value="Go to Post" />
+              </form>
+              <h6 class="post-date">21 Feb 2022</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--  ===============
+  HERE BE MODALS
+  ===============  -->
+  <!-- 3dFlipVertical card tiny [butterfly] -->
+  
+  <div id="modal-card1" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://picsum.photos/1024?random=6" alt="butterfly">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://thispersondoesnotexist.com/image" alt="linda barret avatar">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Testing post order!</p>
+              <p class="subtitle is-6"><a href="https://github.com/nativvstudios">@Nativv Studios</a></p>
+            </div>
+          </div>
+          <div class="content">
+              <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+            <br>
+            <time datetime="2022-02-23 23:35:45 +0000">2022-02-23 23:35:45 +0000</time>
+          </div>
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+          <!-- Image modal -->
+          <div id="modal-image1" class="modal modal-fx-3dSlit">
+              <div class="modal-background"></div>
+              <div class="modal-content is-huge is-image">
+                <!-- content -->
+                <img src="https://picsum.photos/1024?random=6" alt="butterfly">
+                <!-- end content -->
+              </div>
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+  
+  <!-- end tiny modal card -->
+
+
+  
+
+  <!--  ===============
+  HERE BE MODALS
+  ===============  -->
+  <!-- 3dFlipVertical card tiny [butterfly] -->
+  
+  <div id="modal-card2" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://picsum.photos/1024" alt="butterfly">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://thispersondoesnotexist.com/image" alt="linda barret avatar">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Welcome to Jekyll! 1</p>
+              <p class="subtitle is-6"><a href="https://github.com/nativvstudios">@Nativv Studios</a></p>
+            </div>
+          </div>
+          <div class="content">
+              <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+            <br>
+            <time datetime="2022-02-23 03:35:45 +0000">2022-02-23 03:35:45 +0000</time>
+          </div>
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+          <!-- Image modal -->
+          <div id="modal-image2" class="modal modal-fx-3dSlit">
+              <div class="modal-background"></div>
+              <div class="modal-content is-huge is-image">
+                <!-- content -->
+                <img src="https://picsum.photos/1024" alt="butterfly">
+                <!-- end content -->
+              </div>
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+  
+  <!-- end tiny modal card -->
+
+
+
+
+
+  <!--  ===============
+  HERE BE MODALS
+  ===============  -->
+  <!-- 3dFlipVertical card tiny [butterfly] -->
+  
+  <div id="modal-card3" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://picsum.photos/1024?random=1" alt="butterfly">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://thispersondoesnotexist.com/image" alt="linda barret avatar">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Welcome to Jekyll! 2</p>
+              <p class="subtitle is-6"><a href="https://github.com/nativvstudios">@Nativv Studios</a></p>
+            </div>
+          </div>
+          <div class="content">
+              <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+            <br>
+            <time datetime="2022-02-22 03:35:45 +0000">2022-02-22 03:35:45 +0000</time>
+          </div>
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+          <!-- Image modal -->
+          <div id="modal-image3" class="modal modal-fx-3dSlit">
+              <div class="modal-background"></div>
+              <div class="modal-content is-huge is-image">
+                <!-- content -->
+                <img src="https://picsum.photos/1024?random=1" alt="butterfly">
+                <!-- end content -->
+              </div>
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+  
+  <!-- end tiny modal card -->
+
+  <!--  ===============
+  HERE BE MODALS
+  ===============  -->
+  <!-- 3dFlipVertical card tiny [butterfly] -->
+  
+  <div id="modal-card4" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://picsum.photos/1024?random=2" alt="butterfly">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://thispersondoesnotexist.com/image" alt="linda barret avatar">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Welcome to Jekyll! 3</p>
+              <p class="subtitle is-6"><a href="https://github.com/nativvstudios">@Nativv Studios</a></p>
+            </div>
+          </div>
+          <div class="content">
+              <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+            <br>
+            <time datetime="2022-02-21 03:35:45 +0000">2022-02-21 03:35:45 +0000</time>
+          </div>
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+      <!-- Image modal -->
+      <div id="modal-image4" class="modal modal-fx-3dSlit">
+          <div class="modal-background"></div>
+          <div class="modal-content is-huge is-image">
+            <!-- content -->
+            <img src="https://picsum.photos/1024?random=2" alt="butterfly">
+            <!-- end content -->
+          </div>
+          <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+  
+  <!-- end tiny modal card -->
+
+
+
+
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+    <script src="../assets/js/wild.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
+        });
+        </script>  
+          <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>JEKYLL X BULMA</strong> by <a href="https://nativvstudios.com">Nativv Studios</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+      </p>
+    </div>
+  </footer>
+  </body>
+</html>
