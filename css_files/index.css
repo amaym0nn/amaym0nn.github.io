@@ -27,12 +27,18 @@ body {
     font-size: 30px;
 }
 
-.navBar > ul {
-    list-style: none;
+.navBar > .accounts {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.navBar > ul > li {
-    float:right;
-    margin-right: 50px;
-    margin-top: -10px;
+.navBar > .accounts > a {
+    font-size: 28px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
 }
